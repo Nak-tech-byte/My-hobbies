@@ -58,3 +58,107 @@
     </script>
 </body>
 </html>
+* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation menu styles */
+    nav 
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    
+}
+
+/* List styles inside the navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: inherit; /* Use inherited text color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #f9f9f9; /* Light background on hover */
+}
+
+/* Dark theme styles */
+.dark-theme {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text */
+}
+
+.dark-theme h1, .dark-theme h2 {
+    font-family: 'Times New Roman', serif;
+    color: #ff8c00; /* Orange color for headers in dark theme */
+}
+
+.dark-theme nav ul li a {
+    color: #fff; /* Light text for links in dark theme */
+}
+
+.dark-theme #name, .dark-theme #hobbies, .dark-theme #pics {
+    background-color: #444; /* Darker background for sections in dark theme */
+    border-color: #555; /* Darker border for sections in dark theme */
+}
+
+/* Profile card styles */
+.profile-card {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture styles */
+.profile-card .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circle image */
+    margin: 0 auto;
+}
+
+/* Header styles */
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* List styles */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Section styles */
+#name, #hobbies, #pics {
+    margin: 20px;
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for each */
+}

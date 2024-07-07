@@ -1,0 +1,54 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s; /* Smooth transition */
+}
+
+body.dark-theme {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: inherit; /* Use inherited text color */
+    text-decoration: none; /* No underline */
+    background-color: #333; /* Dark background */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Slightly lighter on hover */
+    color: beige; /* Change text color on hover */
+}
+
+/* Styles for elements in the dark theme */
+body.dark-theme nav ul {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background */
+}
+
+body.dark-theme nav ul li a {
+    background-color: #444; /* Darker background */
+    color: #fff; /* Light text color */
+}
+
+body.dark-theme nav ul li a:hover {
+    background-color: #666; /* Slightly lighter on hover */
+    color: beige; /* Change text color on hover */
+}
